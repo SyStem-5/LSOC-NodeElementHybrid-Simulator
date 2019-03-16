@@ -1,0 +1,19 @@
+[package]
+name = "paho-mqtt"
+version = "0.4.0"
+authors = ["Frank Pagliughi <fpagliughi@mindspring.com>"]
+homepage = "https://github.com/eclipse/paho.mqtt.rust"
+repository = "https://github.com/eclipse/paho.mqtt.rust"
+keywords = [ "MQTT", "IoT", "Paho", "messaging" ]
+readme = "README.md"
+description = """
+The Eclipse Paho MQTT Rust Client Library
+This is currently a wrapper around the Paho C library.
+"""
+
+[dependencies]
+paho-mqtt3as-sys = { path = "paho-mqtt3as-sys" }
+libc = "0.2"
+log = "0.3"
+env_logger = "0.3"
+
