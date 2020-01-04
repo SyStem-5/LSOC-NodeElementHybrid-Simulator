@@ -2,7 +2,6 @@
     "recommendations": [
         "bungcip.better-toml",
         "serayuzgur.crates",
-        "kalitaalexey.vscode-rust",
         "rust-lang.rust"
     ]
 }
